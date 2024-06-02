@@ -1,0 +1,7 @@
+{
+  "name": "Texa",
+  "phone": 123456,
+  "email": "hello@cypress.io",
+  "password": "#$Password^&123456",
+  "imagePath": "images/image1.jpg"
+}
