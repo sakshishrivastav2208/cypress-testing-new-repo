@@ -1,0 +1,23 @@
+[
+  {
+    "firstName": "Sakshi",
+    "lastName": "Shrivastav",
+    "email": "hello@cypress.io",
+    "password": "Password@123456%",
+    "phoneNumber": 1234567899
+  },
+  {
+    "firstName": "Mahima",
+    "lastName": "Shrivastav",
+    "email": "hello@cypress.io",
+    "password": "##Password@@12345",
+    "phoneNumber": 9876543219
+  },
+  {
+    "firstName": "Abhas",
+    "lastName": "Shrivastav",
+    "email": "hello@cypress.io",
+    "password": "415263%%Password**",
+    "phoneNumber": 5555566666
+  }
+]
