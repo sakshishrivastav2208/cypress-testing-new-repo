@@ -4,12 +4,14 @@
   "description": "",
   "main": "cypress.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "original-test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^12.17.4",
+    "cypress-file-upload": "^5.0.8",
     "typescript": "^5.4.5"
   }
 }
