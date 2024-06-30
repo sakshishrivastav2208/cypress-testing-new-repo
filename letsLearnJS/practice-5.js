@@ -64,3 +64,38 @@ function containsAllChars(str, substr) {
 console.log(containsAllChars("javascript", "java")); // true
 console.log(containsAllChars("hello world", "WORLD")); // true
 console.log(containsAllChars("hello", "sakshi")); // false
+
+//check even and odd without modulus operator use
+function isEvenOrOdd(num) {
+  if ((num & 1) === 0) {
+    return "Even";
+  } else {
+    return "Odd";
+  }
+}
+
+console.log(isEvenOrOdd(10)); // "Even"
+console.log(isEvenOrOdd(11)); // "Odd"
+
+//separateStringParts
+function separateStringParts(str) {
+  let characters = "";
+  let specialCharacters = "";
+  let numbers = "";
+  for (let n of str) {
+    if ((n >= "a" && n <= "z") || (n >= "A" && n <= "Z")) {
+      characters += n;
+    } else if (n >= "0" && n <= "9") {
+      numbers += n;
+    } else {
+      specialCharacters += n;
+    }
+  }
+  return {
+    characters: characters,
+    numbers: numbers,
+    specialCharacters: specialCharacters,
+  };
+}
+console.log(separateStringParts("WelcometoCapgemini@123"));
+console.log(separateStringParts("415263$%$^Passwrord"));
